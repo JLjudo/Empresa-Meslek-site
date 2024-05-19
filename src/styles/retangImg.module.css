@@ -1,0 +1,13 @@
+.imgRetang{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 1020px) {
+    .imgRetang{
+        height: 250px;
+        padding: 0 10px;
+    }
+}

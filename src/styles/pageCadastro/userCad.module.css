@@ -1,0 +1,69 @@
+.interface{
+    padding: 9% 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.blocoCad{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 303px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px #363636c9;
+    padding: 30px;
+}
+
+.btnCad{
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: #0e3b1fd0;
+}
+
+.btnCad:hover{
+    transform: scale(1.05);
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+#blocoVerde{
+    width: 100%;
+    height: 50px;
+    background-color: #0e3b1fd0;
+}
+
+.form > form > div > p{
+    padding: 15px;
+}
+
+.form > form > div > p > input{
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0 0 8px #363636c9;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 1020px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .blocoCad{
+        height: 450px;
+        width: 100%;
+    }
+
+    .form > form > div > p > input{
+        width: 100%;
+    }
+}

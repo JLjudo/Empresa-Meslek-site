@@ -1,0 +1,54 @@
+.blocoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.logo{
+    transition: .5s;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.redesSociais{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button, i{
+    border: none;
+    font-size: 20px;
+    color: #165e31cc;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    transform: scale(1.15);
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textEmail{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1020px) {
+    .blocoFooter{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
